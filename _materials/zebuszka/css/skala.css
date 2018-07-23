@@ -1,0 +1,104 @@
+.stickycl{
+padding-top: 0px;
+position: fixed ;
+top: -5px;
+width: 100%;
+background-color: white;
+z-index: 99;
+}
+
+.stickycl + #next {
+    padding-top: 102px;
+
+}
+
+.stickycl > #hrfirst {
+    
+    margin-top: 0.5em;
+}
+
+.hero-body-sk{
+padding-top: 0;
+}
+
+.fullwidth{
+    height: 100vh;
+     padding-top: 90px;
+
+} 
+
+#nav-Logo{
+    box-sizing: border-box;
+    position: fixed;
+    top: 3px;
+    left: 10px;
+    max-height: none;
+    width: 160px;
+    height: auto;
+    box-shadow: none;
+    border: none;  
+}
+
+#svg_logo{
+    padding-top: 5em;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body{
+    background-image: url("/img/bg_p3.png");
+    background-repeat: repeat;
+}
+.hero {
+background-color:rgba(255,255,255,0);
+
+}
+
+icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px lightblue;
+  border-radius: 25px;
+}
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background:lightblue;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+          animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
