@@ -92,3 +92,20 @@ icon-scroll,
 #honeypot {
   display: none; /*makes the field not visible to humans*/
 }
+
+.title{
+  color: #00b8d4;
+}
+
+.section{
+  /* margin-left: 2.5%;
+  margin-right:2.5%; */
+background: none;
+}
+
+.footer{
+  background: whitesmoke;
+  padding: 2rem 1.5rem 2rem;
+
+}
+

@@ -1,0 +1,42 @@
+
+    <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+    action="https://script.google.com/macros/s/AKfycbzNZ-9HX-V_NxkUIV8CFPHvmr1stIx94vQFouwR/exec">
+      <!-- change the form action to your script url -->
+      <label class="sr-only">Keep this field blank</label>
+      <input id="honeypot" type="text" name="honeypot" value="" />
+
+      <fieldset class="field is-horizontal">
+          <div class="field-label">
+            <label class="label" for="name">Imię i Nazwisko: </label>
+        </div>
+        <div class="field-body">
+          <div class="control">
+            <input class="input" id="name" name="name" placeholder="Jan Kowalski" />
+          </div>  
+        </div>
+
+
+        <!-- <label for="phone">Telefon: </label>
+        <input id="phone" name="phone" placeholder="000-000-000" /> -->
+      </fieldset>
+  
+      <fieldset class="field">
+          <label for="email">Adres Email:</label>
+          <input id="email" name="email" type="email" value=""
+          required placeholder="your.name@email.com"/>
+          <span id="email-invalid" style="display:none">
+            Must be a valid email address</span>
+        </fieldset> 
+
+      <fieldset class="pure-group">
+        <label for="message">Wiadomość: </label>
+        <textarea id="message" name="message" rows="10"
+        placeholder=""></textarea>
+      </fieldset>
+  
+      <button class="button-success pure-button button-xlarge">
+        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+  
+    </form>
+
+</div>
