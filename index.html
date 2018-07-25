@@ -23,6 +23,7 @@
       <!-- <link rel="stylesheet" href="/css/main.css"> -->
       <link rel="stylesheet" href="css/font-awesome.min.css">
       <link rel="stylesheet" href="css/nunito_sans.css">
+      <link rel="stylesheet" href="css/lightbox.min.css" >
       <link rel="stylesheet" href="css/light-style.css">
       <link rel="stylesheet" href="css/skala.css">
 
@@ -53,7 +54,7 @@
                 <div class="navbar-start">
                     <a class="navbar-item" href="#about"> O Nas</a>
                     <a class="navbar-item" href="landing.html">Zespół</a>
-                    <a class="navbar-item" href="blog.html">Galeria</a>
+                    <a class="navbar-item" href="#gallery">Galeria</a>
                     <a class="navbar-item" href="instaAlbum.html">Cennik</a>
                     <a class="navbar-item" href="#contact">Kontakt</a>
                 </div>
@@ -384,7 +385,69 @@
     </div>
     <!--end of hero with logo  -->
 
+<!-- Gallery Start -->
+<div class="section" id="gallery">
+  <div class="container has-text-centered">
+      <h2 class="title is-2">Galeria</h2>
 
+<div class="columns is-multiline  is-mobile">
+  <div class="column is-2">
+    <figure class="image">
+    <a class="" href="galery/01.jpg" 
+          data-lightbox="zeb-01" 
+          data-title="">
+          <img class="" src="galery/01.jpg-t" alt=""/>
+        </a>
+    </figure>  
+  </div>
+  <div class="column is-3">
+      <figure class="image">
+      <a class="" href="galery/02.jpg"
+       data-lightbox="zeb-01"
+       data-title="">
+       <img class="" src="galery/02.jpg-t" alt="" />
+       </a>
+       </figure>
+  </div>
+  <div class="column is-3">
+      <figure class="image">
+      <a class="" href="galery/03.jpg" 
+      data-lightbox="zeb-01" 
+      data-title="">
+      <img class="" src="galery/03.jpg-t" alt="" /></a>
+      </figure>
+  </div>
+  <div class="column is-3">
+  <figure class="image">
+          <a class="" href="galery/04.jpg" 
+          data-lightbox="zeb-01" 
+          data-title="">
+          <img class="" src="galery/04.jpg-t" alt="" /></a>
+      </figure>
+  </div>
+
+  <div class="column is-3">
+      <figure class="image">
+              <a class="" href="galery/05.jpg" 
+              data-lightbox="zeb-01" 
+              data-title="">
+              <img class="" src="galery/05.jpg-t" alt="" /></a>
+          </figure>
+      </div>
+      <div class="column is-3">
+          <figure class="image">
+                  <a class="" href="galery/06.jpg" 
+                  data-lightbox="zeb-01" 
+                  data-title="">
+                  <img class="" src="galery/06.jpg-t" alt="" /></a>
+              </figure>
+          </div>
+            
+
+        </div>
+  </div>
+</div>
+<!-- Gallery End -->
 
 <!-- Contact -->
 <div class="section" id="contact">
@@ -397,7 +460,7 @@
       <div class="tile is-ancestor">
           <div class="tile is-vertical ">
             <div class="tile">
-              <div class="tile is-parent is-vertical is-5">
+              <div class="tile is-parent is-vertical is-7">
                 <article class="tile is-child ">
                   <p class="title">Adres</p>
                   <h3>   <i class="fa fa-map-marker "></i>
@@ -548,7 +611,6 @@
 </div>
 </div>
 
-
 <!-- https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server -->
   <!-- Customise the Thankyou Message People See when they submit the form: -->
   <div style="display:none;" id="thankyou_message">
@@ -594,14 +656,12 @@
 <!--  -->
 
 
-
  
 
 <!--  -->
 
 <!-- '''''''''''''''''''''''''''''''''''''''''''''''''''''''''' -->
     <!-- SCRIPTS -->
-    <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
     <script src="js/CSSPlugin.min.js"></script>
@@ -612,6 +672,6 @@
     <script src="js/anim1.js"></script>  
     <script src="js/skala.js"></script>
     <script src="js/form-submission-handler.js"></script>
-    <!--end of JQuery -->
+    <script src="js/lightbox.min.js"></script>
   </body>
 </html>
