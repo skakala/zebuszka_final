@@ -31,13 +31,21 @@ $(document).ready(function() {
 })
 
 
-// lottie.loadAnimation({
-//   container: testowe, // the dom element that will contain the animation
-//   renderer: 'svg',
-//   loop: true,
-//   autoplay: true,
-//   path: 'lottie/stopwatch.json' // the path to the animation json
-// });
+//LOTTIE
+
+
+lottie.loadAnimation({
+
+  container: thankyou_message, // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'lottie/email.json' // the path to the animation json
+});
+
+
+
+
 
 //ScrollMagic
 
