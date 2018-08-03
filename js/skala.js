@@ -47,7 +47,7 @@ var controller = new ScrollMagic.Controller();
 var pinIntroScene = new ScrollMagic.Scene({
   triggerElement: '#svg-logo',
   // offset: '180',
-  duration:'28%',
+  duration:'25%',
   triggerHook: 0.7
 })
 //  .addIndicators({
