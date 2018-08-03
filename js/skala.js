@@ -80,10 +80,10 @@ duration: '150%'
            ease: Linear.easeNone
 })
 // .setPin('#paralaxHero', {pushFollowers: false})
-.addIndicators({
-     collorTrigger: 'black',
-     startTrigger:'green'
-   })
+// .addIndicators({
+//      collorTrigger: 'black',
+//      startTrigger:'green'
+//    })
 .addTo(controller);
 
 

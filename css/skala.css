@@ -99,11 +99,11 @@ icon-scroll,
   color: #00b8d4;
 }
 
- /* .section{ 
-  margin-left: 2.5%;
-  margin-right:2.5%; 
+ .section,.paralax{ 
+  margin-left: 4.5%;
+  margin-right:4.5%; 
 
-} */
+}
 
 
 
@@ -122,15 +122,12 @@ icon-scroll,
 
 .paralax{
  
-  background: url("../_materials/shutterstock_626613608_.jpg") ;
+  background: url("../img/sh_heroes_1200.png") ;
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
   height: 60vh;
 
-  /* width: 100; */
-  /* height: 40%;
-  width: 100%; */
 }
 
 @media (max-width: 480px) {
