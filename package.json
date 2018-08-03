@@ -1,0 +1,28 @@
+{
+  "name": "zebuszka.pl",
+  "version": "1.0.0",
+  "description": "zebuszka.pl web site ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass _sass/main.scss css/main.css",
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "deploy": "npm run css-deploy && npm run js-build",
+    "js-build": "babel _javascript --out-dir lib",
+    "js-watch": "npm run js-build -- --watch",
+    "start": "npm run css-watch | npm run js-watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "lottie-web": "^5.1.20",
+    "node-sass": "^4.9.2",
+    "postcss-cli": "^6.0.0"
+  }
+}

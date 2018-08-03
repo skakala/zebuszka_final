@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://zebuszka.pl/projects/photography/</loc>
+    <lastmod>2017-11-13T12:21:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/projects/design/</loc>
+    <lastmod>2017-11-13T12:21:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/projects/writing/</loc>
+    <lastmod>2017-11-13T12:21:11-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/blog/hipster-ipsum/</loc>
+    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/blog/startup-ipsum/</loc>
+    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/blog/coffee-ipsum/</loc>
+    <lastmod>2017-11-01T12:04:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/contact/</loc>
+    <lastmod>2017-03-09T13:23:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/about/</loc>
+    <lastmod>2017-03-09T13:19:25+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/blog/</loc>
+    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/tags/code/</loc>
+    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/tags/coffee/</loc>
+    <lastmod>2017-11-01T12:04:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/tags/images/</loc>
+    <lastmod>2017-11-01T12:04:16-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/tags/ipsum/</loc>
+    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/projects/</loc>
+    <lastmod>2017-11-13T12:21:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/tags/</loc>
+    <lastmod>2017-11-06T12:04:06-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/tags/words/</loc>
+    <lastmod>2017-11-13T11:58:39-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://zebuszka.pl/</loc>
+    <lastmod>2017-11-13T12:21:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
