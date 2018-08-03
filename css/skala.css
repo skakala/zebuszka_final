@@ -2,6 +2,9 @@
   background-color: none;
 } */
 
+.navbar-item{
+  font-weight: 500;
+}
 
 
 .hero-body-sk{
@@ -27,7 +30,7 @@ padding-top: 0;
 
 #svg_logo{
     padding-top: 5em;
-    background-color: rgba(255, 255, 255, 0);
+    /* background-color: rgba(197, 196, 196, 0.082); */
     
 }
 
@@ -37,7 +40,7 @@ body{
   
 }
 .hero {
-background-color:rgba(255,255,255,0);
+background-color: rgba(255, 255, 255, 0.377);
 
 }
 
@@ -99,9 +102,14 @@ icon-scroll,
   color: #00b8d4;
 }
 
+
  .section,.paralax{ 
   margin-left: 4.5%;
   margin-right:4.5%; 
+
+  -webkit-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
+  -moz-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
+  box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
 
 }
 
@@ -135,3 +143,165 @@ icon-scroll,
   height: 20vh;
 
 }}
+
+.fa-arrow-up{
+  padding-top: 15px;
+}
+/* #contact{
+  background-color: none;
+} */
+
+.navbar-item{
+  font-weight: 500;
+}
+
+
+.hero-body-sk{
+padding-top: 0;
+}
+
+.fullwidth{
+    height: 100vh;
+     padding-top: 90px;
+
+} 
+
+#nav-Logo{
+    box-sizing: border-box;
+    position: relative;
+    left: 10px;
+    max-height: none;
+    width: 160px;
+    height: auto;
+    box-shadow: none;
+    border: none;  
+}
+
+#svg_logo{
+    padding-top: 5em;
+    /* background-color: rgba(197, 196, 196, 0.082); */
+    
+}
+
+body{
+    background-image: url("/img/bg_p3.png");
+    background-repeat: repeat;
+  
+}
+.hero {
+background-color: rgba(255, 255, 255, 0.377);
+
+}
+
+icon-scroll,
+.icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+.icon-scroll {
+  width: 40px;
+  height: 70px;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -35px;
+  box-shadow: inset 0 0 0 1px lightblue;
+  border-radius: 25px;
+}
+.icon-scroll:before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background:lightblue;
+  margin-left: -4px;
+  top: 8px;
+  border-radius: 4px;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+          animation-name: scroll;
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+}
+
+#honeypot {
+  display: none; /*makes the field not visible to humans*/
+}
+
+.title{
+  color: #00b8d4;
+}
+
+
+ .section,.paralax{ 
+  margin-left: 4.5%;
+  margin-right:4.5%; 
+
+  -webkit-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
+  -moz-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
+  box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
+
+}
+
+
+
+#about{
+  position: relative;
+  z-index:5;
+}
+
+
+.footer{
+  background: whitesmoke;
+  padding: 2rem 1.5rem 2rem;
+
+}
+
+
+.paralax{
+ 
+  background: url("../img/sh_heroes_1200.png") ;
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60vh;
+
+}
+
+@media (max-width: 480px) {
+  .paralax{
+  height: 20vh;
+
+}}
+
+.fa-arrow-up{
+  padding-top: 15px;
+}
+
+.section .section{
+  box-shadow: none;
+}
+
+h2.title.is-2 {
+  text-shadow: 1px 1px 2px #0000009c;
+  padding-bottom: 10px;
+}
