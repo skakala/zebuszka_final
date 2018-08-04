@@ -97,12 +97,12 @@ duration: '150%'
 
 var paralaxTooth = new ScrollMagic.Scene({
   triggerElement: '#paralaxTooth',
-  triggerHook:0.4,
+  triggerHook:1,
 
   duration: '100%'
   })
   .setTween('#paralaxTooth',{
-             backgroundPosition: "50% -10%",
+             backgroundPosition: "50% 40%",
              ease: Linear.easeNone
   })
   .setPin('#paralaxHero', {pushFollowers: false})
@@ -118,6 +118,17 @@ var paralaxTooth = new ScrollMagic.Scene({
 
 // --------------------------
 // --------------------------
+
+particlesJS.load
+('particles-js',
+ '../particles/particles1.json',
+  function() {
+  console.log('callback - particles.js config loaded');
+});
+
+
+
+// -----------
       }   
-    );
+    );  
 
