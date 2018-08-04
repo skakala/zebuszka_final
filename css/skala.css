@@ -127,10 +127,8 @@ icon-scroll,
 
 }
 
-
-.paralax{
- 
-  background: url("../img/sh_heroes_1200.png") ;
+#paralaxHero{
+   background: url("../img/sh_heroes_1200.png") ;
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -138,18 +136,31 @@ icon-scroll,
 
 }
 
+#paralaxTooth{
+ background: url("../img/sh_girl_tooth_1200.png") ;
+ background-size: cover; 
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 70vh;
+
+}
+
+
 @media (max-width: 480px) {
-  .paralax{
+  #paralaxHero{
   height: 20vh;
+
+}}
+
+@media (max-width: 480px) {
+  #paralaxTooth{
+  height: 30vh;
 
 }}
 
 .fa-arrow-up{
   padding-top: 15px;
 }
-/* #contact{
-  background-color: none;
-} */
 
 .navbar-item{
   font-weight: 500;
@@ -276,27 +287,6 @@ icon-scroll,
 
 }
 
-
-.paralax{
- 
-  background: url("../img/sh_heroes_1200.png") ;
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 60vh;
-
-}
-
-@media (max-width: 480px) {
-  .paralax{
-  height: 20vh;
-
-}}
-
-.fa-arrow-up{
-  padding-top: 15px;
-}
-
 .section .section{
   box-shadow: none;
 }
@@ -305,14 +295,6 @@ h2.title.is-2 {
   text-shadow: 1px 1px 2px #0000009c;
   padding-bottom: 10px;
 }
-
-/* .section#gallery{
-  background: url("../img/fcg.jpg") no-repeat;
-  background-size:contain; 
- background-position: center; 
-
-
-} */
 
 #testowe{
   height: 50px;

@@ -95,6 +95,26 @@ duration: '150%'
 .addTo(controller);
 
 
+var paralaxTooth = new ScrollMagic.Scene({
+  triggerElement: '#paralaxTooth',
+  triggerHook:0.4,
+
+  duration: '100%'
+  })
+  .setTween('#paralaxTooth',{
+             backgroundPosition: "50% -10%",
+             ease: Linear.easeNone
+  })
+  .setPin('#paralaxHero', {pushFollowers: false})
+  // .addIndicators({
+  //      collorTrigger: 'black',
+  //      startTrigger:'green'
+  //    })
+  .addTo(controller);
+  
+
+
+
 
 // --------------------------
 // --------------------------
