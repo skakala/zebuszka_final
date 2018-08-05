@@ -2,11 +2,6 @@
   background-color: none;
 } */
 
-.navbar-item{
-  font-weight: 600;
-}
-
-
 .hero-body-sk{
 padding-top: 0;
 }
@@ -182,7 +177,7 @@ position: relative;
 }
 
 .navbar-item{
-  font-weight: 500;
+  font-weight: 700;
 }
 
 
@@ -334,4 +329,14 @@ h2.title.is-2 {
     opacity: .4;
   }
 
- 
+  * { 
+ font-weight: 600;
+}
+
+.subtitle{
+  font-weight: 600;
+}
+
+body{
+  font-size: 1.2em;
+}

@@ -119,13 +119,13 @@ var paralaxTooth = new ScrollMagic.Scene({
 // --------------------------
 // --------------------------
 
-// $(window).on('resize', function(){
-//   $("#particles-js-nm").height(
-//     // $("body").height() - $( window ).height()
-//         $("#footerEnd").offset().top -
-//         $("#particles-js-nm").offset().top
-//   );
-//  }).trigger('resize'); 
+$(window).on('resize', function(){
+  $("#particles-js-nm").height(
+    // $("body").height() - $( window ).height()
+        $("#footerEnd").offset().top -
+        $("#particles-js-nm").offset().top
+  );
+ }).trigger('resize'); 
 
 
 
