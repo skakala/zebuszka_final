@@ -342,6 +342,6 @@ body{
   font-size: 1.2em;
 }
 
-image {
+.image {
   z-index: 6;
 }
