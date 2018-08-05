@@ -323,3 +323,12 @@ h2.title.is-2 {
     background: #232323eb;
     width: 100vw;
   }
+
+  #gallery figure {
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  #gallery figure:hover img {
+    opacity: .3;
+  }
