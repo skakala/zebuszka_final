@@ -341,3 +341,7 @@ h2.title.is-2 {
 body{
   font-size: 1.2em;
 }
+
+image {
+  z-index: 5;
+}
