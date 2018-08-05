@@ -5927,11 +5927,11 @@ a.navbar-item,
     padding-right: 1.5rem; }
 
 .navbar-divider {
-  background-color: #fff;
+  background-color: #bbaeae;
   border: none;
-  display: none;
+  /* display: none; */
   height: 2px;
-  margin: 0.5rem 0; }
+  margin: 0.5rem 0;}
 
 @media screen and (max-width: 1087px) {
   .navbar > .container {
