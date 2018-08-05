@@ -1,1 +1,0 @@
-for file in *.jpg;do convert 06.jpg -resize 250 06.jpg-t  ; done 
