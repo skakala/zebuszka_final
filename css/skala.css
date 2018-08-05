@@ -110,14 +110,32 @@ icon-scroll,
   -webkit-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
   -moz-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
   box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
+z-index: 10;
+position: relative;
 
 }
 
 
+@media (max-width: 480px) {
+  .section,.paralax{
+    margin-left:0;
+    margin-right:0; 
+    padding: 1rem 1rem;
+}}
+
+.section{
+  background-color: transparent;
+}
+
 
 #about{
   position: relative;
-  z-index:5;
+  background-color: white;
+  z-index:4;
+}
+
+#sloneczko{
+  z-index: 6;
 }
 
 
@@ -259,23 +277,6 @@ icon-scroll,
 }
 
 
- .section,.paralax{ 
-  margin-left: 4.5%;
-  margin-right:4.5%; 
-
-  -webkit-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
-  -moz-box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
-  box-shadow: 3px 1px 37px -13px rgba(0,0,0,0.21);
-
-}
-
-
-
-#about{
-  position: relative;
-  z-index:5;
-}
-
 
 .footer{
   background: whitesmoke;
@@ -303,6 +304,14 @@ h2.title.is-2 {
   left: 0;
   height: 100vh;
   width: 100vw;
+}
+
+
+#particles-js-nm{
+  position: absolute;
+  width: 100vw; 
+  height:100%;
+  z-index: 5;
 }
 
 .subtitle {

@@ -119,6 +119,16 @@ var paralaxTooth = new ScrollMagic.Scene({
 // --------------------------
 // --------------------------
 
+$(window).on('resize', function(){
+  $("#particles-js-nm").height(
+    // $("body").height() - $( window ).height()
+        $("#footerEnd").offset().top -
+        $("#particles-js-nm").offset().top
+  );
+ }).trigger('resize'); 
+
+
+
 particlesJS.load
 ('particles-js',
  '../particles/particles1.json',
@@ -126,6 +136,12 @@ particlesJS.load
   console.log('callback - particles.js config loaded');
 });
 
+particlesJS.load
+('particles-js-nm',
+ '../particles/particles1_nm.json',
+  function() {
+  console.log('callback - particles.js config loaded');
+});
 
 
 // -----------
