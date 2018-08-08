@@ -150,6 +150,12 @@ particlesJS.load
   console.log('callback - particles.js config loaded');
 });
 
+// -----------
+
+$("#closeInfo").click(function(){
+  $("#informacja").hide();
+});
+
 
 // -----------
       }   
