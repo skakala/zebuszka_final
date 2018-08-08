@@ -6482,6 +6482,8 @@ body {
   background-color: #fff; }
 
 a {
+  position:relative;
+  z-index: 7;
   color: #00b8d4;
   hover-color: #000;
   hover-font-style: none;
