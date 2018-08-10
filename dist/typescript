@@ -1,0 +1,51 @@
+Script started on 2018-08-10 06:53:49+02:00
+]777;notify;Command completed;less ../zebuszka_final/index.html ]0;skala@skafed:~/projects/www/zebuszka_final_TM/app]7;file://skafed/home/skala/projects/www/zebuszka_final_TM/app[skala@skafed app]$ less ../zebuszka_final/index.html s
+../zebuszka_final/index.html: No such file or directory
+s: No such file or directory
+]777;notify;Command completed;less ../zebuszka_final/index.html s]0;skala@skafed:~/projects/www/zebuszka_final_TM/app]7;file://skafed/home/skala/projects/www/zebuszka_final_TM/app[skala@skafed app]$ l[Kls -la a[K[K[K[K[K[K[K[Kll
+total 112
+-rw-rw-r--. 1 skala skala  2822 08-10 07:09 404.html
+drwxrwxr-x. 2 skala skala  4096 08-09 20:24 [0m[38;5;33mfonts[0m
+drwxr-xr-x. 2 skala skala  4096 08-05 17:29 [38;5;33mgalery[0m
+drwxrwxr-x. 5 skala skala  4096 08-09 20:26 [38;5;33mimages[0m
+-rw-rw-r--. 1 skala skala 74224 08-10 07:09 index.html
+drwxrwxr-x. 2 skala skala  4096 08-08 00:00 [38;5;33mlottie[0m
+drwxrwxr-x. 2 skala skala  4096 08-05 09:32 [38;5;33mparticles[0m
+-rw-r--r--. 1 skala skala    43 08-09 20:57 robots.txt
+drwxrwxr-x. 2 skala skala  4096 08-09 22:59 [38;5;33mscripts[0m
+drwxrwxr-x. 2 skala skala  4096 08-09 23:00 [38;5;33mstyles[0m
+-rw-rw-r--. 1 skala skala     0 08-10 06:53 typescript
+]777;notify;Command completed;ll]0;skala@skafed:~/projects/www/zebuszka_final_TM/app]7;file://skafed/home/skala/projects/www/zebuszka_final_TM/app[skala@skafed app]$ cd..[K[K[K[Kcd ..
+]777;notify;Command completed;cd ..]0;skala@skafed:~/projects/www/zebuszka_final_TM]7;file://skafed/home/skala/projects/www/zebuszka_final_TM[skala@skafed zebuszka_final_TM]$ ll
+total 376
+drwxrwxr-x.   9 skala skala   4096 08-10 06:53 [0m[38;5;33mapp[0m
+drwxrwxr-x.   6 skala skala   4096 08-09 20:02 [38;5;33mbower_components[0m
+-rw-rw-r--.   1 skala skala    200 08-09 20:02 bower.json
+-rw-r--r--.   1 skala skala   4707 08-10 07:08 gulpfile.js
+drwxrwxr-x. 888 skala skala  36864 08-09 20:02 [38;5;33mnode_modules[0m
+-rw-r--r--.   1 skala skala   1003 08-09 22:50 package.json
+-rw-rw-r--.   1 skala skala  76968 08-09 19:38 package-lock.json
+drwxr-xr-x.   2 skala skala   4096 08-09 20:26 [38;5;33mPUBLIC[0m
+drwxrwxr-x.   3 skala skala   4096 08-09 20:01 [38;5;33mtest[0m
+-rw-rw-r--.   1 skala skala 232440 08-09 20:02 yarn.lock
+]777;notify;Command completed;ll]0;skala@skafed:~/projects/www/zebuszka_final_TM]7;file://skafed/home/skala/projects/www/zebuszka_final_TM[skala@skafed zebuszka_final_TM]$ cd app/
+]777;notify;Command completed;cd app/]0;skala@skafed:~/projects/www/zebuszka_final_TM/app]7;file://skafed/home/skala/projects/www/zebuszka_final_TM/app[skala@skafed app]$ ll
+total 112
+-rw-rw-r--. 1 skala skala  2822 08-10 07:09 404.html
+drwxrwxr-x. 2 skala skala  4096 08-09 20:24 [0m[38;5;33mfonts[0m
+drwxr-xr-x. 2 skala skala  4096 08-05 17:29 [38;5;33mgalery[0m
+drwxrwxr-x. 5 skala skala  4096 08-09 20:26 [38;5;33mimages[0m
+-rw-rw-r--. 1 skala skala 74224 08-10 07:09 index.html
+drwxrwxr-x. 2 skala skala  4096 08-08 00:00 [38;5;33mlottie[0m
+drwxrwxr-x. 2 skala skala  4096 08-05 09:32 [38;5;33mparticles[0m
+-rw-r--r--. 1 skala skala    43 08-09 20:57 robots.txt
+drwxrwxr-x. 2 skala skala  4096 08-09 22:59 [38;5;33mscripts[0m
+drwxrwxr-x. 2 skala skala  4096 08-09 23:00 [38;5;33mstyles[0m
+-rw-rw-r--. 1 skala skala     0 08-10 06:53 typescript
+]777;notify;Command completed;ll]0;skala@skafed:~/projects/www/zebuszka_final_TM/app]7;file://skafed/home/skala/projects/www/zebuszka_final_TM/app[skala@skafed app]$ cd ..
+]777;notify;Command completed;cd ..]0;skala@skafed:~/projects/www/zebuszka_final_TM]7;file://skafed/home/skala/projects/www/zebuszka_final_TM[skala@skafed zebuszka_final_TM]$ ll
+total 376
+drwxrwxr-x.   9 skala skala   4096 08-10 06:53 [0m[38;5;33mapp[0m
+drwxrwxr-x.   6 skala skala   4096 08-09 20:02 [38;5;33mbower_components[0m
+-rw-rw-r--.   1 skala skala    200 08-09 20:02 bower.json
+-rw-r--r--.   1 skala skala   4707 08-10 07:

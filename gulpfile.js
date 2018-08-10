@@ -13,7 +13,7 @@ let dev = true;
 
 // ----------------------------------------------------
 
-// var purify = require('gulp-purifycss');
+ var purify = require('gulp-purifycss');
 
 gulp.task(
  // 'css-purify'
