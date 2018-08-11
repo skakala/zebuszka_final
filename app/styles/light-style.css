@@ -2390,7 +2390,9 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .columns {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
-  margin-top: -0.75rem; }
+  margin-top: -0.75rem;
+  display: flex;
+}
   .columns:last-child {
     margin-bottom: -0.75rem; }
   .columns:not(:last-child) {

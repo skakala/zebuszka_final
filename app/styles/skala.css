@@ -142,7 +142,7 @@ position: relative;
 }
 
 #paralaxHero{
-   background: url("../images/sh_heroes_1200.png") ;
+   background: url("../images/sh_heroes_1024.png") ;
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ position: relative;
 }
 
 #paralaxTooth{
- background: url("../images/sh_girl_tooth_1200.png") ;
+ background: url("../images/sh_girl_tooth_1024.png") ;
  background-size: cover; 
  background-position: center 90%;
  background-repeat: no-repeat;
@@ -363,4 +363,10 @@ body{
 #informacja{
   margin-top: 60px;
   
+}}
+
+@media (max-width: 600px) {
+  .columns{
+display: block;
+
 }}
