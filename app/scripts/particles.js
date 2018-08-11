@@ -199,7 +199,7 @@ var pJS = function(tag_id, params){
     if(pJS && pJS.interactivity.events.resize){
       
       //skala mod
-        let skalatmp = pJS.canvas.el.offsetWidth;
+        var skalatmp = pJS.canvas.el.offsetWidth;
       //
 
       window.addEventListener('resize', function(){
@@ -209,8 +209,8 @@ var pJS = function(tag_id, params){
           pJS.canvas.w = pJS.canvas.el.offsetWidth;
           pJS.canvas.h = pJS.canvas.el.offsetHeight;
 
-          if (Math.abs(skalatmp - pJS.canvas.w ) > 20){
-            // console.log("resize particle triggered!!")
+          // if (Math.abs(skalatmp - pJS.canvas.w ) > 5){
+          //   console.log('resize particle triggered!!')
           /* resize canvas */
           if(pJS.tmp.retina){
             pJS.canvas.w *= pJS.canvas.pxratio;
@@ -232,7 +232,7 @@ var pJS = function(tag_id, params){
         pJS.fn.vendors.densityAutoParticles();
 
       }
-      skalatmp = pJS.canvas.w ;}
+      // skalatmp = pJS.canvas.w ;}
       
     );
         
