@@ -197,12 +197,20 @@ var pJS = function(tag_id, params){
     pJS.canvas.el.height = pJS.canvas.h;
 
     if(pJS && pJS.interactivity.events.resize){
+      
+      //skala mod
+        let skalatmp = pJS.canvas.el.offsetWidth;
+      //
 
       window.addEventListener('resize', function(){
 
+        
+        
           pJS.canvas.w = pJS.canvas.el.offsetWidth;
           pJS.canvas.h = pJS.canvas.el.offsetHeight;
 
+          if (Math.abs(skalatmp - pJS.canvas.w ) > 20){
+            // console.log("resize particle triggered!!")
           /* resize canvas */
           if(pJS.tmp.retina){
             pJS.canvas.w *= pJS.canvas.pxratio;
@@ -223,8 +231,11 @@ var pJS = function(tag_id, params){
         /* density particles enabled */
         pJS.fn.vendors.densityAutoParticles();
 
-      });
-
+      }
+      skalatmp = pJS.canvas.w ;}
+      
+    );
+        
     }
 
   };

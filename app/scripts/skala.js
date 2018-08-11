@@ -118,11 +118,13 @@ var paralaxTooth = new ScrollMagic.Scene({
 
 // --------------------------
 // --------------------------
+  var cachedWidth = 0;
 
 $(window).on('resize', function(){
   var newWidth = $(window).width();
-  if(newWidth !== cachedWidth){
-
+  // if(newWidth !== cachedWidth)
+  if(Math.abs(newWidth - cachedWidth) >50) 
+  {
   $('#particles-js-nm').height(
     // $("body").height() - $( window ).height()
         $('#footerEnd').offset().top -
@@ -133,7 +135,7 @@ $(window).on('resize', function(){
 }
  }).trigger('resize'); 
 
- var cachedWidth = $(window).width();
+
 
 
 particlesJS.load
