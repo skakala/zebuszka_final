@@ -209,8 +209,7 @@ var pJS = function(tag_id, params){
           pJS.canvas.w = pJS.canvas.el.offsetWidth;
           pJS.canvas.h = pJS.canvas.el.offsetHeight;
 
-          // if (Math.abs(skalatmp - pJS.canvas.w ) > 5){
-          //   console.log('resize particle triggered!!')
+         
           /* resize canvas */
           if(pJS.tmp.retina){
             pJS.canvas.w *= pJS.canvas.pxratio;
@@ -222,17 +221,20 @@ var pJS = function(tag_id, params){
 
           /* repaint canvas on anim disabled */
           if(!pJS.particles.move.enable){
+          if (Math.abs(skalatmp - pJS.canvas.w ) > 15){
+             console.log('resize particle triggered not move!!')
             pJS.fn.particlesEmpty();
             pJS.fn.particlesCreate();
             pJS.fn.particlesDraw();
             pJS.fn.vendors.densityAutoParticles();
-          }
+          }  
+          skalatmp = pJS.canvas.w ;}
 
         /* density particles enabled */
         pJS.fn.vendors.densityAutoParticles();
-
+     
       }
-      // skalatmp = pJS.canvas.w ;}
+    
       
     );
         

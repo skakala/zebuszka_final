@@ -202,3 +202,28 @@ gulp.task('default', () => {
     runSequence(['clean', 'wiredep'], 'build', resolve);
   });
 });
+
+var jsonminify = require('gulp-jsonminify');
+ 
+
+gulp.task('minify-lottie-json', () => {
+    return gulp.src(['app/lottie/*.json'])
+    .pipe(jsonminify())
+    .pipe(gulp.dest('dist'));
+  });
+
+  gulp.task('minify-particles-json', () => {
+      return gulp.src(['app/particles/*.json'])
+      .pipe(jsonminify())
+      .pipe(gulp.dest('dist'));
+    });
+
+gulp.task('minify-json-all', ['minify-particles-json', 'minify-lottie-json']);
+
+var svgmin = require('gulp-svgmin');
+ 
+gulp.task('minify-svg-images', function () {
+    return gulp.src('app/images/*.svg')
+        .pipe(svgmin())
+        .pipe(gulp.dest('app/images/'));
+});
