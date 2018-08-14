@@ -55,7 +55,7 @@ var controller = new ScrollMagic.Controller();
 var pinIntroScene = new ScrollMagic.Scene({
   triggerElement: '#svg-logo',
   // offset: '180',
-  duration:'25%',
+  duration:'85%',
   triggerHook: 0.7
 })
 //  .addIndicators({
@@ -65,17 +65,17 @@ var pinIntroScene = new ScrollMagic.Scene({
 .setPin('#intro', {pushFollowers: false})
  .addTo(controller)
 // --------------
- var pinIntroScene2 = new ScrollMagic.Scene({
-  triggerElement: '#about',
-  duration: '35%',
-  triggerHook: 0.4
-})
-// .addIndicators({
-//   collorTrigger: 'black',
-//   startTrigger:'green'
+//  var pinIntroScene2 = new ScrollMagic.Scene({
+//   triggerElement: '#about',
+//   duration: '35%',
+//   triggerHook: 0.4
 // })
-.setPin('#intro', {pushFollowers: false})
- .addTo(controller)
+// // .addIndicators({
+// //   collorTrigger: 'black',
+// //   startTrigger:'green'
+// // })
+// .setPin('#intro', {pushFollowers: false})
+//  .addTo(controller)
 
 
 var paralaxHeros = new ScrollMagic.Scene({
