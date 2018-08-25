@@ -6639,8 +6639,8 @@ padding-top:15px; }
   background-color: #fff;
   font-size: 1.5rem; }
 
-.modal-background {
-  background-color: rgba(255, 255, 255, 0.9); }
+/* .modal-background {
+  background-color: rgba(255, 255, 255, 0.9); } */
 
 .modal-close {
   background-color: #000000; }

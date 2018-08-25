@@ -817,7 +817,12 @@
                         <div class="field-body">
                           <div class="field">
                             <div class="control">
-                                <button class="button is-success">
+                                <label class="checkbox">
+                                    <input id="zgoda" type="checkbox">
+                                    Zapoznałem się z <a href="modal" id="modalOpen">informacją o administratorze i przetwarzaniu danych</a>
+                                  </label>
+                                  
+                                <button id="formButt" class="button is-success" disabled>
                                     <i class="fa fa-paper-plane"></i>&nbsp;Wyślij
                                   </button>
                             </div>
@@ -828,12 +833,11 @@
 
                   </form>
                   <div style="display:none;" id="thankyou_message">
-
                     </div>
-
                 </article>
               </div>
             </div>
+            
             <div class="tile is-parent">
               <article class="tile is-child ">
                 <p class="title"></p>
@@ -854,11 +858,30 @@
       <a href="#top">
         <i class="fa fa-arrow-up"></i></a>
       </div>
-  
-
-
 </div>
 </div>
+<!-- Modal -->
+<div class="modal">
+    <div class="modal-background">test</div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Informacja</p>
+        <button id="modelClose" class="delete" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+          Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z ustawą o ochronie danych osobowych
+          w związku z wysłaniem zapytania przez formularz kontaktowy.
+          Podanie danych jest dobrowolne, ale niezbędne do przetworzenia zapytania.
+          Zostałem /am poinformowany /a, że przysługuje mi prawo dostępu do swoich danych, 
+          możliwości ich poprawiania, żądania zaprzestania ich przetwarzania. 
+          Administratorem danych osobowych jest "Zębuszka - Stomatologia dla Dzieci i Młodzieży Agnieszka Skalska" 
+          z siedzibą w Krakowie na ul. Zaczarowane Koło 5A.   
+               </section>
+      <footer class="modal-card-foot">
+      </footer>
+    </div>
+  </div>
+<!-- End Modal -->
 
 <!-- https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server -->
   <!-- Customise the Thankyou Message People See when they submit the form: -->
