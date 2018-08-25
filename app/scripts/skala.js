@@ -5,21 +5,21 @@ $('#zgoda').click(function(){
   $('#formButt').attr('disabled',!this.checked)
 });
 
-$("#modalOpen").click(function(e) {
+$('#modalOpen').click(function(e) {
   e.preventDefault();
-  $(".modal").addClass("is-active"); 
+  $('.modal').addClass('is-active'); 
 });
 
-$("#modelClose").click(function() {
-   $(".modal").removeClass("is-active");
+$('#modelClose').click(function() {
+   $('.modal').removeClass('is-active');
 });
 
-$("#showModal").click(function() {
-  $(".modal").addClass("is-active");  
+$('#showModal').click(function() {
+  $('.modal').addClass('is-active');  
 });
 
-$(".modal-close").click(function() {
-   $(".modal").removeClass("is-active");
+$('.modal-close').click(function() {
+   $('.modal').removeClass('is-active');
 });
 // -----------
 

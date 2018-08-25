@@ -9,20 +9,23 @@ document.addEventListener('DOMContentLoaded', function () {
       var js_file = document.createElement('script');
       js_file.type = 'text/javascript';
       js_file.src = 'https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyAMj0arAPLo-AyoDzP7aT88BrnFNdW2wr8&language=' + lang;
+      js_file.defer = true;
+      js_file.async = true;
       document.getElementsByTagName('head')[0].appendChild(js_file);
     }
   });
 
   function initMap() {
     // The location of Zebuszka
-      var zebuszkaLoc = {lat: 50.07845, lng: 19.90430};
+    //50.078429, 19.904351
+      var zebuszkaLoc = {lat: 50.078429, lng: 19.904351};
   
     var map = new google.maps.Map(
         document.getElementById('map'), {zoom: 17, center: zebuszkaLoc});
   
   
   var icon = {
-      url: "images/Zmarker.svg", // url
+      url: 'images/Zmarker.svg', // url
       scaledSize: new google.maps.Size(50, 50), // scaled size
       origin: new google.maps.Point(0,0), // origin
       anchor: new google.maps.Point(25, 50) // anchor
