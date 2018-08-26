@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
       '<p>ul. Zaczarowane Koło 5A, <br> 30-087 Kraków</p>'+
       '<p>tel.: <a href="tel:+48570048066">570 048 066</a> <br>'+
       'email: <a href="mailto:gabinet@zebuszka.pl">gabinet@zebuszka.pl</a></p>'+
-      '<p><a  target="_blank" rel="noopener noreferrer"  href="https://www.google.com/maps/place/Z%C4%98BUSZKA+STOMATOLOGIA+DLA+DZIECI+I+M%C5%81ODZIE%C5%BBY/@50.07849,19.904032,16z/data=!4m5!3m4!1s0x0:0x3418db7133337fde!8m2!3d50.0784899!4d19.904032?hl=en-US"</a> '+
+      '<p><a  target="_blank" rel="noopener noreferrer"  href="https://www.google.com/maps/place/Z%C4%98BUSZKA+STOMATOLOGIA+DLA+DZIECI+I+M%C5%81ODZIE%C5%BBY/@50.07849,19.904032,16z/data=!4m5!3m4!1s0x0:0x3418db7133337fde!8m2!3d50.0784899!4d19.904032?hl=pl-PL"</a> '+
       'Otwórz na dużej mapie</p>'+
       '</div>'+
       '</div>';
