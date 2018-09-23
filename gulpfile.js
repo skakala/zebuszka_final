@@ -96,6 +96,13 @@ gulp.task('images', () => {
     .pipe(gulp.dest('dist/images'));
 });
 
+gulp.task('gallery', () => {
+  return gulp.src('app/galery/**/*')
+    .pipe($.cache($.imagemin()))
+    .pipe(gulp.dest('dist/galery'));
+});
+
+
 gulp.task('fonts', () => {
   return gulp.src(require('main-bower-files')('**/*.{eot,svg,ttf,woff,woff2}', function (err) {})
     .concat('app/fonts/**/*'))

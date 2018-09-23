@@ -1,0 +1,2 @@
+for file in *.jpg;do convert $file -resize 250 $file-t  ; done 
+
